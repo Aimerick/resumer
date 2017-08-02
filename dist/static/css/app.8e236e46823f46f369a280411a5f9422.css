@@ -518,7 +518,8 @@ template {
     height: 64px;
 }
 #topbar > .wrapper > .triangle[data-v-a0a88fb8] {
-      margin-left: -343px;
+      position: fixed;
+      left: 494px;
       height: 0px;
       width: 0px;
       border-top: solid 32px transparent;
@@ -697,6 +698,7 @@ ol[data-v-53358100] {
 .resumeField input[type=text][data-v-53358100] {
   margin: 16px 0;
   border: 1px solid #ddd;
+  border-radius: 4px;
   box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.25);
   width: 100%;
   height: 40px;
@@ -729,6 +731,10 @@ hr[data-v-53358100] {
 }
 #resumePreview p {
     white-space: pre-line;
+    margin-top: 16px;
+}
+#resumePreview small {
+    font-size: 16px;
 }
 #resumePreview section > h2:first-child {
     border-bottom: 2px solid #ec7259;
@@ -775,4 +781,4 @@ a[data-v-524cd6bc] {
   color: #42b983;
 }
 
-/*# sourceMappingURL=app.b9a5cb445288bad4b13fd7fa76616d69.css.map*/
+/*# sourceMappingURL=app.8e236e46823f46f369a280411a5f9422.css.map*/

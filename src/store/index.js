@@ -29,15 +29,14 @@ export default new Vuex.Store({
       },
       workHistory: [
         {
-          company: 'A公司', content: `公司总部设在XXXX区，先后在北京、上海成立分公司。专注于移动XXX领域，主打产品XXXXX，它将资讯、报纸、杂志、图片、微信等众多内容，按照用户意愿聚合到一起，实现深度个性化 定制。
-我的主要工作如下:
-1. 完成既定产品需求。
-2. 修复 bug。`
+          company: 'A公司', content: `公司总部设在XXXX区，在yy成立分公司。专注于XXX领域，产品XXXXX，
+主要工作如下:
+1. xxx。
+2. xxx。`
         },
-        { company: 'B公司', content: `公司总部设在XXXX区，先后在北京、上海成立分公司。专注于移动XXX领域，主打产品XXXXX，它将资讯、报纸、杂志、图片、微信等众多内容，按照用户意愿聚合到一起，实现深度个性化 定制。
-我的主要工作如下:
-1. 完成既定产品需求。
-2. 修复 bug` },
+        { company: 'B公司', content: `公司总部设在XXXX区，在yy成立分公司。专注于XXX领域，产品XXXXX，主要工作如下:
+1. xxx。
+2. xxx` },
       ],
       education: [
         { school: 'C大学', content: '本科' },

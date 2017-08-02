@@ -7,8 +7,7 @@
       </h1>
       <h2>{{resume.profile.title}}</h2>
       <p>
-        <small>{{resume.profile.city}}</small>
-        <small>{{resume.profile.birthday}}</small>
+        <small>{{resume.profile.city}} | {{resume.profile.birthday}}</small>
       </p>
     </section>
 
@@ -83,7 +82,8 @@
     * {box-sizing: border-box; font-variant: normal; font-weight: normal;}
     ol{ list-style: none; }
     section + section{ margin-top: 2em; }
-    p{ white-space: pre-line; } 
+    p{ white-space: pre-line; margin-top: 16px;} 
+    small{font-size: 16px;}
     section {
       > h2:first-child{ border-bottom: 2px solid #ec7259;padding: 8px 8px 8px 0; display: inline-block; padding: .2em; 
         margin-bottom: .5em;

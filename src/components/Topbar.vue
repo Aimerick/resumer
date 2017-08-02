@@ -10,7 +10,6 @@
           <SignUpForm @success="login($event)"/>
         </MyDialog>
         <a class="button" href="#">登录</a>
-        <button class="button primary">保存</button>
         <button class="button">预览</button>
       </div>
     </div>
@@ -57,7 +56,8 @@ export default {
       height:64px;
 
       >.triangle{
-        margin-left: -343px;
+        position: fixed;
+        left: 494px;
         height:0px;
         width:0px;
         border-top:solid 32px transparent;
