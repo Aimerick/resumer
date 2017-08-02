@@ -51,8 +51,8 @@ export default new Vuex.Store({
         { name: 'D奖'},
       ],
       contacts: [
-        { contact: 'phone', content: '13812345678' },
-        { contact: 'qq', content: '12345678' },
+        { contact: 'phone', content: '13xxxxxxxxx' },
+        { contact: 'qq', content: '123456789' },
       ],
     }
   },

@@ -10,7 +10,7 @@
           <SignUpForm @success="login($event)"/>
         </MyDialog>
         <a class="button" href="#">登录</a>
-        <button class="button">预览</button>
+        <button class="button" v-on:click="preview">预览</button>
       </div>
     </div>
   </div>
@@ -38,6 +38,9 @@ export default {
     login(user){
       this.signUpDialogVisible = false
       this.$store.commit('setUser', user)
+    },
+     preview(){
+        this.$emit('preview')
     }
   }
 }

@@ -1,5 +1,4 @@
 
-@charset "UTF-8";
 .page {
   height: 100vh;
   display: -ms-flexbox;
@@ -20,7 +19,6 @@
     -ms-flex-pack: justify;
         justify-content: space-between;
     width: 100%;
-    /* 试试不加这句会怎样 */
     -ms-flex-item-align: center;
         align-self: center;
 }
@@ -40,6 +38,36 @@ svg.icon {
   fill: currentColor;
   vertical-align: -0.1em;
   font-size: 20px;
+}
+.previewMode .topbar {
+  display: none;
+}
+.previewMode .preview {
+  border-radius: 3px;
+  max-width: 800px;
+  margin: 16px auto;
+  -ms-flex: 1;
+      flex: 1;
+}
+#exitPreview {
+  display: none;
+}
+.previewMode #exitPreview {
+  display: inline-block;
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  background: #fff;
+  color: cornflowerblue;
+  width: 120px;
+  height: 64px;
+  padding: 8px;
+  border-radius: 6px;
+}
+.previewMode #exitPreview:hover {
+    color: #fff;
+    background: #aaa;
+    border: 1px solid #fff;
 }
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 
@@ -709,6 +737,9 @@ hr[data-v-53358100] {
   border-top: 1px solid #ddd;
   margin: 24px 0;
 }
+.previewMode #resumeEditor[data-v-53358100] {
+  display: none;
+}
 
 #resumePreview {
   background: white;
@@ -781,4 +812,4 @@ a[data-v-524cd6bc] {
   color: #42b983;
 }
 
-/*# sourceMappingURL=app.8e236e46823f46f369a280411a5f9422.css.map*/
+/*# sourceMappingURL=app.0b3f1b38ecd2700930aa723883c8a8c2.css.map*/

@@ -118,4 +118,8 @@
     border-top: 1px solid #ddd;
     margin: 24px 0;
   }
+
+.previewMode #resumeEditor{
+  display: none;
+}
 </style>
